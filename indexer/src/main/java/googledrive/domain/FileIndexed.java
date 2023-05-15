@@ -11,7 +11,7 @@ public class FileIndexed extends AbstractEvent {
 
     private Long id;
     private Long fileId;
-    private String keywords;
+    private List<String> keywords;
 
     public FileIndexed(Index aggregate) {
         super(aggregate);
